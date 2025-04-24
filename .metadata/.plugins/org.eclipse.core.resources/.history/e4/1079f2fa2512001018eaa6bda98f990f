@@ -1,0 +1,15 @@
+package basics;
+
+public class FactorCount {
+	public static void main(String[] args) {
+		
+	}
+	public static int name(int n) {
+		int s = 0;
+		for(int i=1;i<=Math.sqrt(n);i++) {
+			
+		}
+		return s;
+	}
+
+}

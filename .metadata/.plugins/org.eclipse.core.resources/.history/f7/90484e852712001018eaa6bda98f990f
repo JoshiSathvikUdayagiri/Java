@@ -1,0 +1,19 @@
+package basics;
+
+import com.sun.tools.classfile.Annotation.element_value;
+
+public class FactorCount {
+	public static void main(String[] args) {
+		
+	}
+	public static int name(int n) {
+		int s = 0;
+		for(int i=1;i<=Math.sqrt(n);i++) {
+			if(n%i==0 && i*i!=n)
+				s+=2;
+			else if(n%i==0 )
+		}
+		return s;
+	}
+
+}

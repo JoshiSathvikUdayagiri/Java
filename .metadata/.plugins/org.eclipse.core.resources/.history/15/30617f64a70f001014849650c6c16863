@@ -1,0 +1,16 @@
+package searching;
+
+public class LinearSearch {
+	public static void main(String args[]) {
+		int arr[] = 1{}
+		linearSearch({1,2,3,4,5}, 3)
+	}
+	public static boolean linearSearch(int arr[],int n)
+	{
+		for(int e: arr) {
+			if(e==n)
+				return true;
+		}
+			return false;
+	}
+}

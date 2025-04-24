@@ -1,0 +1,14 @@
+package basics;
+
+import com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIterNodeList;
+
+public class PrimeNumbers {
+	public static void main(String[] args) {
+		int n = 100;
+		boolean isPrim = isPrime(n);
+		System.out.println();
+		if(isPrim) {
+			
+		}
+	}
+}

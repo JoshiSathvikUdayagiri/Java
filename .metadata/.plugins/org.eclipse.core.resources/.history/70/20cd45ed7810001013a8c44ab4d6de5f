@@ -1,0 +1,23 @@
+package sorting;
+
+public class SelectionSort {
+	public static void main(String[] args) {
+		int[] arr = {5,1,9,5,7,10,11,12,15,24,3};
+		int[] result = selectionSort(arr);
+		for(int e: result) {
+			System.out.println(e);
+		}
+	}
+	public static int[] selectionSort(int[] arr) {
+		for (int i = 0; i < arr.length; i++) {
+			int t=0;
+			for(int j=1;j<arr.length-i;j++) {
+				if(arr[t]<arr[j])
+					t=j;
+			}
+			int temp =arr[]
+			arr[]
+		}
+		return arr;
+	}
+}

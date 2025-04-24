@@ -1,0 +1,19 @@
+package searching;
+
+public class LinearSearch {
+	public static void main(String args[]) {
+		int arr[] = {1,2,3,4,5};
+		if(linearSearch(arr, 3))
+			System.out.println("Present");
+		else 
+			System.out.println();
+	}
+	public static boolean linearSearch(int arr[],int n)
+	{
+		for(int e: arr) {
+			if(e==n)
+				return true;
+		}
+			return false;
+	}
+}
